@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="name">Portfolio</div>
+        <div id="items">
+            <div class="na"><a href="#">Home</a></div>
+            <div class="na" ><a href="#ab">About</a></div>
+            <div class="na" ><a href="#skill">Skills</a></div>
+            <div class="na" ><a href="#register">Form</a></div>
+            <div class="na" ><a href="#h">contact</a></div>
+        </div>
+    </div>
+
+    <div class="bg">
+        <div class="text">
+            A gushy student who has a keen<br>
+            interest in website development<br>
+            and love to build
+        </div>
+    </div>
+    <hr>
+    <h1 class="heading">About Me....</h1>
+    <div class="ab" id="ab">
+        <div ><img id="profile_img" src="image/profile.jpeg" ></div>
+        <div class="item2">
+            I,Gagan Tayal, is a student of information technology branch of Engineering at Ajay Kumar Garg Engineering College,
+            Ghaziabad. My keen interests lie in building websites which work efficiently and provide comfort to the eyes
+            of the viewer. <br>
+            I started my coding journey from class 9th itself, yes it was quite early but thats when our school started
+            teaching us Java.<br>
+            I have done my 10th from St. Teresa's Academy ,Modinagar and secured 91%. I have completed my 12th in PCM
+            from Dr K.N. Modi Global School and secured 90%.
+        </div>
+    </div>
+    <hr>
+     <!-- <div class="img" id="img">
+        <div><a href="https://www.w3schools.com/html/"><img src="image/html.jpg" width="200px" height="150px"></a></div>
+        <div><a href="https://www.w3schools.com/w3css/defaulT.asp"><img src="image/css.jpg" width="170px"
+                    height="150px"></a></div>
+        <div><a href="https://www.w3schools.com/js/"><img src="image/js.jpg" width="350px" height="150px"></a></div>
+    </div>  -->
+     <div class="bg1">
+        <h1 id="skill">skills</h1>
+        <div class="skill">
+            <div><img class="ima_size" src="image/html.png"></div>
+            <div><img class="ima_size" src="https://cdn-icons-png.flaticon.com/512/5968/5968242.png"></div>
+            <div><img class="ima_size" src="https://logospng.org/download/javascript/logo-javascript-icon-1024.png"></div>
+            <div><img class="ima_size" src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/c-program-icon.png"></div>
+            <div><img class="ima_size" src="https://upload.wikimedia.org/wikipedia/commons/3/32/C%2B%2B_logo.png"></div>
+        </div>
+    </div>
+    <hr> 
+    <div class="main">
+        <div class="register">
+            <h2>Register Here</h2>
+            <form id="register">
+                <label>Name : </label>
+                <br>
+                <input type="text" name="fname" id="name" placeholder="Enter Your Name">
+                <br><br>
+                <label>Your Age : </label>
+                <br>
+                <input type="number" name="age" id="name" placeholder="How old are you">
+                <br><br>
+                <label>Email : </label>
+                <br>
+                <input type="email" name="email" id="name" placeholder="Enter Your Email">
+                <br><br>
+                <input type="submit" name="submit" id="submit">
+            </form>
+        </div>
+    </div>
+    <hr>
+    <script type="text/javascript">
+        document.getElementById("submit").onclick=function(){alert("Your form was submitted!   ");}
+    </script>
+    <div class="footer"> 
+        <ul>
+            <li><a href="https://github.com/" target="_blank"><i class="ri-github-fill"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/login/" target="_blank"><i class="ri-linkedin-box-fill"></i></a></li>
+            <li><a href="mailto:gagantayal2003@gmail.com" target="_blank"><i class="ri-mail-line"></i></a></li>
+            <li id="h"><a href="https://www.instagram.com/" target="_blank"><i class="ri-instagram-line"></i></a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
