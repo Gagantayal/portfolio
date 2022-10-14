@@ -270,15 +270,15 @@ label
     }
     .ima_size
     {
-        width: 200px;
-        height: 120px;
+        width: 90px;
+        height: 100px;
     }
     /* .skill
     {
         flex-direction: column;
         justify-content: space-around;
         text-align: center;
-    } */
+    }  */
 }
 @media only screen and (max-width:425px)
 {
