@@ -218,7 +218,7 @@ ul li i{
 }
 .main
 {
-    width: 400px;
+    width: 380px;
     margin: 5% auto 5% auto;
     border:1px #5a5353 solid;
     background-color: #5a5353;
@@ -265,17 +265,17 @@ label
     {
         flex-direction: column;
         text-align: center;
-        height: 10vh;
+        height: 8vh;
     }
-     /* #item
+    #item
     {
-        display: flex;
         flex-direction: row;
-    }  */
-    .na
+        margin-bottom: 5%;
+    }  
+    /* .na
     {
         display: none;
-    }
+    } */
     .ima_size
     {
         width: 90px;
@@ -295,6 +295,7 @@ label
         font-size:10px;
     } */
     .ab{
+        display:block;
         flex-direction: column;
     }
 }
